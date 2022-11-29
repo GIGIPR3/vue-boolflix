@@ -1,0 +1,33 @@
+<template>
+  <div id="app">
+    
+    <NavbarSection/>
+
+
+
+
+
+  </div>
+</template>
+
+<script>
+import NavbarSection from './components/NavbarSection.vue'
+
+export default {
+  name: 'App',
+  components: {
+    NavbarSection
+  }
+}
+</script>
+
+<style lang="scss">
+/* #app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+} */
+</style>
