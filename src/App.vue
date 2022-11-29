@@ -30,4 +30,11 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 } */
+
+#app{
+    background-color: rgb(20, 20, 20);
+    height: 100vh;
+}
+
+
 </style>
