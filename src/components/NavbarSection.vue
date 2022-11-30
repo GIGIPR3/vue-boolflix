@@ -1,31 +1,36 @@
 <template>
-    
+
     <div class="navbar">
         <div class="container m-auto">
             <div>
-                <img src="../assets/pngegg (1).png" alt="" class="logo" >
+                <img src="../assets/pngegg (1).png" alt="" class="logo">
             </div>
             <div>
-                
-                <input type="search" name="" id="search" placeholder="Cerca qui il Film o Serie Tv...">
+
+                <input type="text   " name="" id="search" v-model="searchImput"
+                    placeholder="Cerca qui il Film o Serie Tv..." @keyup="$emit('emitSearch', searchImput)">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
         </div>
-          
+
     </div>
 
 </template>
 
 <script>
-    export default{
-        name: 'NavbarSection'
+export default {
+    name: 'NavbarSection',
+    data() {
+        return {
+            searchImput: ''
+        }
     }
+}
 </script>
 
 
 <style lang="scss" scoped>
-
-.navbar{
+.navbar {
     /* background-color: rgb(20, 20, 20); */
 
     background-color: rgb(37, 37, 37);
@@ -33,18 +38,18 @@
 
 }
 
-.logo{
+.logo {
     width: 140px;
     margin-left: 20px;
 }
 
-.fa-solid{
+.fa-solid {
     color: white;
     margin-left: 15px;
 }
 
 
-#search{
+#search {
     border: 0px;
     background-color: rgb(37, 37, 37);
     color: white;
@@ -52,5 +57,4 @@
     font-style: italic;
     border-bottom: 1px solid white;
 }
-
 </style>
