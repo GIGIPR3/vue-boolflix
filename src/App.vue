@@ -1,9 +1,11 @@
 <template>
   <div id="app">
     
-    <NavbarSection/>
+    <NavbarSection @emitSearch="searchFilms" />
+    <MainComp :paramFilms="arrayFilms"/>
 
-    <FilmCard/>
+
+    <!-- <FilmCard/> -->
 
 
 
@@ -12,14 +14,16 @@
 
 <script>
 import NavbarSection from './components/NavbarSection.vue'
-import FilmCard from './components/FilmCard.vue'
+/* import FilmCard from './components/FilmCard.vue' */
+import MainComp from './components/MainComp.vue'
 import axios from 'axios'
 
 export default {
   name: 'App',
   components: {
     NavbarSection,
-    FilmCard
+    MainComp,
+    /* FilmCard */
   },
   data() {
     return{
@@ -28,7 +32,7 @@ export default {
   },
   methods: {
     searchFilms(valoreEmit){
-      axios.get( 'https://api.themoviedb.org/3/search/movie?api_key=e99307154c6dfb0b4750f6603256716d&query=' + valoreEmit )
+      axios.get( 'https://api.themoviedb.org/3/search/movie?api_key=67a7569e9af4ccdbb00447d7c0733e96&query=' + valoreEmit )
       .then((res)=>{
         this.arrayFilms = res.data.results
       })

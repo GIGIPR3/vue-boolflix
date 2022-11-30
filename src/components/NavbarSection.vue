@@ -31,9 +31,8 @@ export default {
 
 <style lang="scss" scoped>
 .navbar {
-    /* background-color: rgb(20, 20, 20); */
-
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(20, 20, 20);
+    /* background-color: rgb(37, 37, 37); */
     height: 70px;
 
 }
@@ -51,7 +50,7 @@ export default {
 
 #search {
     border: 0px;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(20, 20, 20);
     color: white;
     width: 210px;
     font-style: italic;
