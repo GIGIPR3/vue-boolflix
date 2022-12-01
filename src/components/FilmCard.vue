@@ -1,14 +1,40 @@
 <template>
     <div class="container m-auto mt-5 titoloW">
 
-        <div class="d-flex ">
+        <div class="d-flex">
 
-            <div class="card m-2" >
+            <div class="card m-2" id="carta">
 
-                <h5 class="titoloW"> {{ title }} </h5>
+                <!-- <img :src="" alt=""> -->
 
             </div>
-            
+
+            <!-- <div class="card m-2">
+
+                
+
+            </div>
+            <div class="card m-2">
+
+                
+
+            </div>
+            <div class="card m-2">
+
+                
+
+            </div>
+            <div class="card m-2">
+                
+                
+                
+            </div>
+            <div class="card m-2">
+                
+                
+
+            </div> -->
+
 
         </div>
 
@@ -26,12 +52,14 @@
 
 export default {
     name: 'FilmCard',
-    props:{
+    props: {
         singleFilm: Object
     }
 }
 
-
+/* for( let i = 0; i < 6; i++ ){
+    
+} */
 
 
 </script>

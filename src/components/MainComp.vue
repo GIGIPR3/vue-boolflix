@@ -3,7 +3,7 @@
         <h3 class="titoloW mt-4">Movies</h3>
         <FilmCard :filmsData="paramFilms"/>
 
-        <h3 class="titoloW mt-4">Tv Series</h3>
+        <h3 class="titoloW mt-5">Tv Series</h3>
     </div>
 </template>
 
