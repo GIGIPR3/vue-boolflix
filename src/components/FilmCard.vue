@@ -1,11 +1,10 @@
 <template>
-    <div class="container m-auto mt-5 titoloW">
-
-        <div class="d-flex">
 
             <div class="card m-2" id="carta">
 
-                ciao
+                <div>
+                    <img src="" alt="">
+                </div>
 
             </div>
 
@@ -35,11 +34,6 @@
 
             </div> -->
 
-
-        </div>
-
-
-    </div>
 
 </template>
 
