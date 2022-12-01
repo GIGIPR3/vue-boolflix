@@ -1,14 +1,14 @@
 <template>
 
-            <div class="card m-2" id="carta">
+            <div class="card m-2 " id="carta">
 
-                <div>
-                    <img src="" alt="">
+                <div class="w-100 h100 ">
+                    <img src="{singleFilm.poster_path}" alt="">
                 </div>
 
             </div>
 
-        
+        <!-- <h5 class="titoloW"> {{ title }} </h5> -->
 
 
 </template>
@@ -38,8 +38,9 @@ export default {
 <style lang="scss" scoped>
 .card {
     height: 300px;
-    width: 200px;
+    width: 184px;
     background-color: rgb(37, 37, 37);
+    border-radius: 0px;
 }
 
 .titoloW {

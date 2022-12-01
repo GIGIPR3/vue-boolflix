@@ -7,8 +7,8 @@
         
 
         <h3 class="titoloW mt-5">Tv Series</h3>
-        <div>
-            
+        <div class="d-flex flex-wrap">
+            <SerieTvCard v-for="(serie, index) of paramSerieTv" :key="index" :singleSerie="serie"/>
         </div>
     </div>
 </template>
@@ -18,6 +18,7 @@
 
 <script>
 import FilmCard from '../components/FilmCard.vue'
+import SerieTvCard from '../components/SerieTvCard.vue'
 
 export default {
     name: 'MainComp',
@@ -26,7 +27,8 @@ export default {
         paramSerieTv : Array
     },
     components:{
-        FilmCard
+        FilmCard,
+        SerieTvCard
     }
 }
 

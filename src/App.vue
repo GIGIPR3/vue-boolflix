@@ -2,8 +2,8 @@
   <div id="app">
     
     <NavbarSection @emitSearch="searchFilms" />
-    <MainComp :paramFilms="arrayFilms"/>
-    <SerieTvCard/>
+    <MainComp :paramFilms="arrayFilms" :paramSerieTV="serieTV"/>
+<!--     <SerieTvCard :paramSerieTV="serieTV"/> -->
 
     <!-- <FilmCard/> -->
 
@@ -16,7 +16,7 @@
 import NavbarSection from './components/NavbarSection.vue'
 /* import FilmCard from './components/FilmCard.vue' */
 import MainComp from './components/MainComp.vue'
-import SerieTvCard from './components/SerieTvCard.vue'
+/* import SerieTvCard from './components/SerieTvCard.vue' */
 import axios from 'axios'
 
 export default {
@@ -24,7 +24,7 @@ export default {
   components: {
     NavbarSection,
     MainComp,
-    SerieTvCard
+/*     SerieTvCard */
     /* FilmCard */
   },
   data() {

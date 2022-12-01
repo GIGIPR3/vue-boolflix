@@ -1,19 +1,14 @@
 <template>
-    <div class="container m-auto mt-5 titoloW">
 
-        <div class="d-flex ">
+
 
             <div class="card m-2" >
 
                 <!-- <h5 class="titoloW"> {{ title }} </h5> -->
 
-            </div>
-            
-
-        </div>
+            </div> 
 
 
-    </div>
 
 </template>
 

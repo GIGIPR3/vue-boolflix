@@ -1,7 +1,7 @@
 <template>
 
     <div class="navbar">
-        <div class="container m-auto">
+        <div class="container-fluid m-auto ms-5 me-5">
             <div>
                 <img src="../assets/pngegg (1).png" alt="" class="logo">
             </div>
