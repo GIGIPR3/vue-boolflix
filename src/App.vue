@@ -27,7 +27,8 @@ export default {
   },
   data() {
     return{
-      arrayFilms: []
+      arrayFilms: [],
+      serieTv: []
     }
   },
   methods: {

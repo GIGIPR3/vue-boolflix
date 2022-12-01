@@ -1,6 +1,9 @@
 <template>
-    <div>
+    <div class="container">
+        <h3 class="titoloW mt-4">Movies</h3>
         <FilmCard :filmsData="paramFilms"/>
+
+        <h3 class="titoloW mt-4">Tv Series</h3>
     </div>
 </template>
 
@@ -13,7 +16,8 @@ import FilmCard from '../components/FilmCard.vue'
 export default {
     name: 'MainComp',
     props:{
-        paramFilms : Array
+        paramFilms : Array,
+        paramSerieTv : Array
     },
     components:{
         FilmCard
@@ -28,5 +32,15 @@ export default {
 
 
 <style lang="scss" scoped>
+
+.titoloW {
+    color: white;
+}
+
+
+/* .container{
+    background-color: rgb(20, 20, 20);
+} */
+
 
 </style>

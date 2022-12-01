@@ -3,9 +3,9 @@
 
         <div class="d-flex ">
 
-            <div class="card m-2">
+            <div class="card m-2" >
 
-                <h5 class="titoloW"> {{ singleFilm.title }} </h5>
+                <h5 class="titoloW"> {{ title }} </h5>
 
             </div>
             
@@ -18,7 +18,7 @@
 </template>
 
 
-
+<!-- v-for="(elem, index) in paramFilm" :key="index" :singleFilm="elem" -->
 
 
 <script>
