@@ -8,31 +8,7 @@
 
             </div>
 
-            <!-- <div class="card m-2">
-
-                
-
-            </div>
-            <div class="card m-2">
-
-                
-
-            </div>
-            <div class="card m-2">
-
-                
-
-            </div>
-            <div class="card m-2">
-                
-                
-                
-            </div>
-            <div class="card m-2">
-                
-                
-
-            </div> -->
+        
 
 
 </template>
