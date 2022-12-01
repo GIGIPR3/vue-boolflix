@@ -5,7 +5,7 @@
 
             <div class="card m-2" id="carta">
 
-                <!-- <img :src="" alt=""> -->
+                
 
             </div>
 

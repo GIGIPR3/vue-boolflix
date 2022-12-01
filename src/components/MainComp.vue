@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <h3 class="titoloW mt-4">Movies</h3>
-        <FilmCard :filmsData="paramFilms"/>
+        <FilmCard v-for="(film, index) of paramFilms" :key="index" :singleFilm="film"/>
 
         <h3 class="titoloW mt-5">Tv Series</h3>
     </div>
